@@ -48,5 +48,37 @@ console.log(candy);
 if (candy === 'Yes') {
     alert('You know me so well! I would follow the White Witch anywhere for rose flavored Turkish Delight.');
 } else {
-    alert('I thought you knew me! And it is rose that is the best flavor! You can make it up to me by buying me some.');
+    alert('I thought you knew me! You can make it up to me by buying me some. Rose flavored.');
 }
+
+
+
+for (var i = 1; i < 5; i++) {
+
+    var number = prompt("How many McDonald's hamburgers have I eaten in my life?")
+
+console.log(number);
+
+if (number > 0) {
+    alert('Too high!');
+} else if (number < 0) {
+    alert('Too low!');
+} else {
+    alert("Zero is correct! McDonald's hamburgers look gross!");
+    break;
+}
+}
+
+var = prompt('What is one of my favorite current tv shows?')
+
+console.log(television);
+
+Do television = prompt('Nope! Guess again! What is is one of my favorite current tv shows?')
+    } while (television !== "The Good Place" || "Game of Thrones" || "Steven Universe"); {
+    
+}
+
+
+
+
+

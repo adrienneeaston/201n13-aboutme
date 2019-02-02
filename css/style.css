@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: yellow
+    color: yellow;
 }
 header {
     color: #0c0000;
@@ -9,7 +9,9 @@ header {
   
   h2 {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: orangered
+    background-color: orangered;
   }
 
-  
+footer {
+    color: rgb(99, 4, 4); 
+}  
