@@ -91,10 +91,14 @@ function numberBurgers () {
 
     if (number > 0) {
       alert('Too high!');
-    } else {(number < 0);
+    } else if (number == 0) {
       counter++;
-      alert('Zero is correct! McDonald\'s hamburgers look gross!');
+      alert('Zero is correct! McDonald\'s hamburgers look gross!'); 
       break;
+    } else if (number < 0) {
+      alert('Too low!');
+    } else { 
+      alert('The answer should be a number. Why so oppositional??');
     }
   }
 }
