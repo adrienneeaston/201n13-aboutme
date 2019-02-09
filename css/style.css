@@ -1,10 +1,17 @@
 body {
     background-color: black;
     color: yellow;
+    font-size: 16px
 }
 header {
     color: #0c0000;
-    background-color: #ee0c0c;
+    background-color: white;
+    width: 230px;
+    float: right;
+    margin: 5px;
+    padding: 5px
+    font-size: 600%;
+    font-family: Impact, Haettenschweiler, Cursive;
   }
   
   h2 {
@@ -15,3 +22,5 @@ header {
 footer {
     color: rgb(99, 4, 4); 
 }  
+
+
