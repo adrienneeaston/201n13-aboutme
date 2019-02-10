@@ -1,26 +1,36 @@
 body {
-    background-color: black;
+    background-color: #000001;
     color: yellow;
     font-size: 16px
 }
-header {
-    color: #0c0000;
-    background-color: white;
-    width: 230px;
-    float: right;
+#header {
+    background-color: #824C71;
+    color: #90AA86;
+    font-family: Serif, Impact, Haettenschweiler;
     margin: 5px;
-    padding: 5px
-    font-size: 600%;
-    font-family: Impact, Haettenschweiler, Cursive;
+    border-radius: 5px;
+    padding: 10px;
+    height: 150px
   }
-  
-  h2 {
+
+#name {
+    color: #DCCCA3;
+    font-family: monospace;
+    font-size: 250%;
+}
+
+.main {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: orangered;
+    background-color: #DCCCA3;
+    color: #4A2545;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 110%;
   }
 
 footer {
-    color: rgb(99, 4, 4); 
+    color: #90AA86;
 }  
 
 
