@@ -7,7 +7,7 @@ body {
     background-color: #824C71;
     color: #90AA86;
     font-family: Serif, Impact, Haettenschweiler;
-    margin: 5px;
+    margin: 10px;
     border-radius: 5px;
     padding: 10px;
     height: 150px
@@ -15,7 +15,7 @@ body {
 
 #name {
     color: #DCCCA3;
-    font-family: monospace;
+    font-family: Monospace;
     font-size: 250%;
 }
 

@@ -8,15 +8,15 @@ var counter = 0;
 // Question 1, yes or no question.
 
 function birthState () {
-  var born = prompt('Pop quiz about me! Was I born in Michigan? Yes or No?');
-  console.log('User answered ' + born +', "for the question "Was I born in Michigan"');
+  var born = prompt('Pop quiz about me! Did I grow up in Michigan? Yes or No?');
+  console.log('User answered ' + born +', "for the question "Did I grow up in Michigan"');
   born = born.toLowerCase();
 
   if (born === 'no') {
     counter++;
-    alert('Correct! I was born in Yorba Linda, California.');
+    alert('Correct! Land of Gracious Living!');
   } else {
-    alert('No, actually I\'ve never even been there!');
+    alert('No, actually I\'ve never even been there! I grew up in Yorba Linda, California, home of the Richard Nixon Library!');
   }
 }
 
@@ -29,9 +29,9 @@ function firstJob () {
 
   if (work === 'yes') {
     counter++;
-    alert('That is right! I served frozen yogurt, baked goods, and bad coffee on Main Street!');
+    alert('That is right! I served frozen yogurt, baked goods, and bad coffee on Main Street and have have seen the Main Street Electrical Parade a few too many times. *twitch*');
   } else {
-    alert('But is was! I served frozen yogurt, baked goods, and bad coffee on Main Street!');
+    alert('But is was! I served frozen yogurt, baked goods, and bad coffee on Main Street! They hired me even though I almost got kicked out in junior high by the Disney Police for dropping candy off of the People Mover trying to hit people. (Did you know they have cameras everywhere??)');
   }
 }
 
@@ -44,9 +44,9 @@ function petType () {
 
   if (pets === 'yes') {
     counter++;
-    alert('Yes, you are right! and she is super fluffy!');
+    alert('Yes, you are right! And she is super fluffy! Even her murder mittens are fluffy!');
   } else {
-    alert('Wrong! I do have a cat and she is the fluffiest!');
+    alert('Wrong! I do have a cat and she is the fluffiest OMG!');
   }
 }
 
@@ -98,7 +98,7 @@ function numberBurgers () {
     } else if (number < 0) {
       alert('Too low!');
     } else { 
-      alert('The answer should be a number. Why so oppositional??');
+      alert('The answer should be a number. You\'re weird.');
     }
   }
 }
@@ -111,19 +111,20 @@ function favoriteShows () {
     var televisionShows = [
       'the good place',
       'game of thrones',
-      'steven universe'
+      'steven universe',
+      'bojack horseman'
     ];
 
     var userTvAnswer = prompt('What is one of my favorite current tv shows?');
     userTvAnswer = userTvAnswer.toLowerCase();
     if(televisionShows.includes(userTvAnswer)) {
       counter++;
-      alert('Good job! You recognize my excellent taste in TV viewing! My current favorites are, ' + televisionShows[0] + ', ' + televisionShows[1] + ', ' + televisionShows[2]);
+      alert('Good job! You recognize my excellent taste in TV viewing! My current favorites are, ' + televisionShows[0] + ', ' + televisionShows[1] + ', ' + televisionShows[2] + ', and ' + televisionShows[3] + '.');
       console.log('User answered ' + userTvAnswer + ', to the question "What is one of my favorited current tv shows?"');
       break;
     }
     else {
-      alert('Nope! Try harder! *whip crack*');
+      alert('Wrong! Answer better! *whip crack*');
       console.log('User answered ' + userTvAnswer + ', to the question "What is one of my favorited current tv shows?"');
     }
   }
@@ -139,7 +140,7 @@ favoriteShows();
 
 // Lets the user know how they did.
 
-alert('You got ' + counter + '/7 correct! That\'s how well you know me.');
+alert('You got ' + counter + '/7 correct! That\'s how well you know me. Hmmmm...');
 
 
 
